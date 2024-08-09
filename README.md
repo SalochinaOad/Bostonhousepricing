@@ -14,7 +14,7 @@
 """evn_name\Scripts\activate"""
 """evn_name\Scripts\deactivate"""
 
-### install requirements.txt
+### Install requirements.txt
 """ pip install -r requirements.txt
 
 ### Config git global username and email
