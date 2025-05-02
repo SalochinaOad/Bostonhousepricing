@@ -6,7 +6,7 @@ The Boston housing dataset contains various features about houses in Boston, suc
 This is a supervised regression problem where the goal is to build a model that can accurately predict housing prices based on input features. The model will be trained on historical data and tested on unseen data to evaluate its performance.
 
 ### Key Steps:
-Data Preprocessing:
+1. Data Preprocessing:
 
 Load and inspect the dataset.
 
@@ -14,7 +14,7 @@ Clean the data (check for missing values, remove or handle outliers, etc.).
 
 Rename columns for clarity (e.g., renaming the target variable to price).
 
-Exploratory Data Analysis (EDA):
+2. Exploratory Data Analysis (EDA):
 
 Explore relationships between features and the target variable (price).
 
@@ -22,13 +22,13 @@ Visualize correlations and distributions of features to understand their impact 
 
 Use tools like correlation matrices and pair plots to find the most influential features.
 
-Feature Engineering:
+3. Feature Engineering:
 
 Select relevant independent variables (features) for the model.
 
 Transform data as needed (e.g., scaling numerical values).
 
-Model Building:
+4. Model Building:
 
 Split the data into training and testing sets.
 
@@ -36,13 +36,13 @@ Choose a machine learning algorithm (Linear Regression in this case).
 
 Train the model on the training data.
 
-Model Evaluation:
+5. Model Evaluation:
 
 Evaluate the model using various metrics, including Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared (R²).
 
 Analyze the model's performance on test data and adjust if necessary.
 
-Model Deployment (Optional):
+6. Model Deployment (Optional):
 
 Save the trained model using pickle or joblib for future use or deployment.
 
